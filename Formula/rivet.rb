@@ -7,28 +7,28 @@
 class Rivet < Formula
   desc "CLI to export PostgreSQL and MySQL to Parquet/CSV (local, S3, GCS)"
   homepage "https://github.com/panchenkoai/rivet"
-  version "0.2.0-beta.2"
+  version "0.2.0-beta.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.2/rivet-v0.2.0-beta.2-aarch64-apple-darwin.tar.gz"
-      sha256 "48bc17f1c2abb5a960663cddc57664d1409058d5b04821168cde0840493cb1a2"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.5/rivet-v0.2.0-beta.5-aarch64-apple-darwin.tar.gz"
+      sha256 "7ea0f29a34c625872931b2aee5f5b51a2f44334d70ec08f5c023e03f2eb476b3"
     end
     on_intel do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.2/rivet-v0.2.0-beta.2-x86_64-apple-darwin.tar.gz"
-      sha256 "e9de5bc57453ad789785e577c2f6a5f1ef557a29692d29649e7f9b110010a15b"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.5/rivet-v0.2.0-beta.5-x86_64-apple-darwin.tar.gz"
+      sha256 "85579feed65aed473f742ff2a6a79a4e3696b96eadf2e0949c366b64ab82f3cc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.2/rivet-v0.2.0-beta.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "07e48bc0d8bc9f576d834bd4f7a59cef2c4c9db33b4ea8aa856372be1349f54e"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.5/rivet-v0.2.0-beta.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c248fc5a5910996a9ef7dbe6e910c7fea64e8705d225b5620cf3954031573b91"
     end
     on_intel do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.2/rivet-v0.2.0-beta.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7c20d0f58e4975ee9f47968d8f289ce58b5ca96394556b60460baabf0557b047"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.5/rivet-v0.2.0-beta.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e1bcc24a8cea470101a3b2677b411c79810eccbd280ed2c73a22ca6e60da1241"
     end
   end
 
