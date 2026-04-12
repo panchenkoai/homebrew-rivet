@@ -7,28 +7,28 @@
 class Rivet < Formula
   desc "CLI to export PostgreSQL and MySQL to Parquet/CSV (local, S3, GCS)"
   homepage "https://github.com/panchenkoai/rivet"
-  version "0.2.0-beta.5"
+  version "0.2.0-beta.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.5/rivet-v0.2.0-beta.5-aarch64-apple-darwin.tar.gz"
-      sha256 "7ea0f29a34c625872931b2aee5f5b51a2f44334d70ec08f5c023e03f2eb476b3"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.6/rivet-v0.2.0-beta.6-aarch64-apple-darwin.tar.gz"
+      sha256 "7c511675522de157b0d671143ec3b2890cb7863bbe24c70383d7c129a4382db2"
     end
     on_intel do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.5/rivet-v0.2.0-beta.5-x86_64-apple-darwin.tar.gz"
-      sha256 "85579feed65aed473f742ff2a6a79a4e3696b96eadf2e0949c366b64ab82f3cc"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.6/rivet-v0.2.0-beta.6-x86_64-apple-darwin.tar.gz"
+      sha256 "ad53d22bea57d51a39b96299d040a472b0e587791281856c9eda70dcdc859eed"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.5/rivet-v0.2.0-beta.5-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c248fc5a5910996a9ef7dbe6e910c7fea64e8705d225b5620cf3954031573b91"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.6/rivet-v0.2.0-beta.6-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4fc3800d378b5409ef4191b4874008632dd88c4f055750ae9abece61f39602c5"
     end
     on_intel do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.5/rivet-v0.2.0-beta.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e1bcc24a8cea470101a3b2677b411c79810eccbd280ed2c73a22ca6e60da1241"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.6/rivet-v0.2.0-beta.6-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6bb871a52b2db3b5f5a74ff41d45e3f2c6a2ae9cd57847f879cdff21cf4a89be"
     end
   end
 
