@@ -7,28 +7,28 @@
 class Rivet < Formula
   desc "CLI to export PostgreSQL and MySQL to Parquet/CSV (local, S3, GCS)"
   homepage "https://github.com/panchenkoai/rivet"
-  version "0.2.0-beta.6"
+  version "0.2.0-beta.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.6/rivet-v0.2.0-beta.6-aarch64-apple-darwin.tar.gz"
-      sha256 "7c511675522de157b0d671143ec3b2890cb7863bbe24c70383d7c129a4382db2"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.7/rivet-v0.2.0-beta.7-aarch64-apple-darwin.tar.gz"
+      sha256 "b6ecad3320883a2c19bcf0a35ce4a27ee0b65b36cc0f0a46cbe92432b639e377"
     end
     on_intel do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.6/rivet-v0.2.0-beta.6-x86_64-apple-darwin.tar.gz"
-      sha256 "ad53d22bea57d51a39b96299d040a472b0e587791281856c9eda70dcdc859eed"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.7/rivet-v0.2.0-beta.7-x86_64-apple-darwin.tar.gz"
+      sha256 "8b6a20ca7800481d7d7111e542f6e9f0840f4bbccccdca769d53b8a532623009"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.6/rivet-v0.2.0-beta.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4fc3800d378b5409ef4191b4874008632dd88c4f055750ae9abece61f39602c5"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.7/rivet-v0.2.0-beta.7-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1ef9b7301c66d5663344104d84a6e37a0ba4ca0f2d10448df716e6f5cef21c6b"
     end
     on_intel do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.6/rivet-v0.2.0-beta.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6bb871a52b2db3b5f5a74ff41d45e3f2c6a2ae9cd57847f879cdff21cf4a89be"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.2.0-beta.7/rivet-v0.2.0-beta.7-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c0e34b60fb6034db579a4470dbcbfdea7311dde7899fa49210532e84ef9fba35"
     end
   end
 
