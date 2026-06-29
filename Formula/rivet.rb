@@ -13,22 +13,22 @@ class Rivet < Formula
   on_macos do
     on_arm do
       url "https://github.com/panchenkoai/rivet/releases/download/v0.16.1/rivet-v0.16.1-aarch64-apple-darwin.tar.gz"
-      sha256 "c06ad69a6da926189f4f3ffc69497ceea933fc1fc6c19341b06484cda67ad7e4"
+      sha256 "caf90450aed730a0a2ddb5d1f8587deddd35e4e2457f595f03d5e360de30437b"
     end
     on_intel do
       url "https://github.com/panchenkoai/rivet/releases/download/v0.16.1/rivet-v0.16.1-x86_64-apple-darwin.tar.gz"
-      sha256 "b19f9b4f2d44874481ea090ed7107c87120c29c9db7e613d278a27d1a447d685"
+      sha256 "2a1c662f9c83d5a21dd540f7e5309b3760b78efc3ed48eed7ce814625dc69642"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/panchenkoai/rivet/releases/download/v0.16.1/rivet-v0.16.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c3c0d871abc649d98377a5fe77e26ff27241822f41ba2b0e4653b38e7841c661"
+      sha256 "f1629d0efbab04ccdaf45b4bc342c2dea641e283e89d737d1ff52c430b35aa6d"
     end
     on_intel do
       url "https://github.com/panchenkoai/rivet/releases/download/v0.16.1/rivet-v0.16.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "102bd11d0cfcdbbf341c0cfbe3d7ce0a58a133dc1adb41f488f9c1421d550a72"
+      sha256 "6588b687225b10d950160db7a69495ccfd5d958cbfa619eba539f2eb06279f78"
     end
   end
 
