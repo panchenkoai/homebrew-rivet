@@ -7,28 +7,28 @@
 class Rivet < Formula
   desc "CLI to export PostgreSQL and MySQL to Parquet/CSV (local, S3, GCS)"
   homepage "https://github.com/panchenkoai/rivet"
-  version "0.16.4"
+  version "0.16.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.16.4/rivet-v0.16.4-aarch64-apple-darwin.tar.gz"
-      sha256 "3bbe0e9edffaa75aa616fc32f900abb6e63d10cb6af5b1621210ded1a268e7ea"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.16.5/rivet-v0.16.5-aarch64-apple-darwin.tar.gz"
+      sha256 "3e69ae20c23da738c1e03960ef27deb032ceaab230ab04e2b3128f4da6f06408"
     end
     on_intel do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.16.4/rivet-v0.16.4-x86_64-apple-darwin.tar.gz"
-      sha256 "0baba36050570a2a48f6bba38688352ee7006b1d3efa30ae65b65fecad91f9a4"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.16.5/rivet-v0.16.5-x86_64-apple-darwin.tar.gz"
+      sha256 "6de6981c3be9b45317a814d4502e3ddf824acf5568afded4b409839007c56b10"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.16.4/rivet-v0.16.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2f48e6939bcc5e4fb3cbe36ef0f82ce7d0c5fc8d389e6c2b5d9372ce7fa04110"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.16.5/rivet-v0.16.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "09194759ab2cd22f4f12da873feb088e2d375f84cab44215e35257faa12ed44b"
     end
     on_intel do
-      url "https://github.com/panchenkoai/rivet/releases/download/v0.16.4/rivet-v0.16.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b754ce0c32524adeef9621618dd3b2a302d23309e7d8b2de569c9dfb69f32ae5"
+      url "https://github.com/panchenkoai/rivet/releases/download/v0.16.5/rivet-v0.16.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b27f3471debdbd1f067fa673aa159492c1c3eb22c1a19e436e7fe8a6cf08451f"
     end
   end
 
